@@ -1,0 +1,6 @@
+nodejs:
+  build: ./nodejs
+  volumes:
+      - /vagrant/apps/nodejs:/app
+  ports:
+    - "9000:9000"
